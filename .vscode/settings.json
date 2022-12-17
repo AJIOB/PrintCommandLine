@@ -1,0 +1,10 @@
+{
+    "cmake.debugConfig": {
+        "args": [
+            "--input1=${command:cmake.launchTargetDirectory}",
+            "--input2=<paramName param=\"Value\">",
+            "--input3=<paramName param=\"${command:cmake.launchTargetDirectory}\">",
+            "--input4=argument with space",
+        ]
+    },
+}
